@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071c2b">
+  <meta name="description" content="Aquarium Store — dive into a hand-picked collection of ocean games.">
+  <title>Aquarium Store — Dive into your next game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="search.css">
+  <link rel="stylesheet" href="illustrations.css">
+  <link rel="stylesheet" href="water.css">
+  <link rel="stylesheet" href="frame.css">
+  <link rel="stylesheet" href="recent.css">
+  <script src="app.js" defer></script>
+  <script src="water.js" defer></script>
+</head>
+<body>
+  <div class="water-backdrop" aria-hidden="true"></div>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <a class="frame-brand" href="#discover" aria-label="Aquarium Store home">
+    <span class="frame-brand-main">
+      <svg class="ray-logo" viewBox="0 0 96 68" role="img" aria-label="Stylized manta ray">
+        <defs><linearGradient id="ray-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a6ffe4"/><stop offset="1" stop-color="#3ab8c2"/></linearGradient></defs>
+        <path class="ray-tail" d="M48 51c2 5 1 9-2 15" fill="none" stroke="#79f2cf" stroke-linecap="round" stroke-width="2.5"/>
+        <path class="ray-body" d="M48 9C36 14 25 19 11 20 5 21 4 26 9 30c9 7 21 7 31 1-4 8-3 16 8 21 11-5 12-13 8-21 10 6 22 6 31-1 5-4 4-9-2-10C69 19 60 14 48 9Z" fill="url(#ray-fill)" stroke="#c6fff0" stroke-opacity=".8" stroke-width="1.4"/>
+        <path d="M42 24q6 4 12 0" fill="none" stroke="#0b3946" stroke-linecap="round" stroke-width="1.5"/>
+        <circle cx="43" cy="20" r="1.6" fill="#082a37"/><circle cx="53" cy="20" r="1.6" fill="#082a37"/>
+        <path d="M48 25v7" stroke="#0b3946" stroke-linecap="round" stroke-width="1.2" opacity=".65"/>
+      </svg>
+      <strong class="frame-brand-word"><span>A</span><span>Q</span><span>U</span><span>A</span><span>R</span><span>I</span><span>U</span><span>M</span></strong>
+    </span>
+    <span class="frame-brand-tagline">Let's Dive In<span aria-hidden="true">↓</span></span>
+  </a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Aquarium Store home"><span class="brand-mark">◉</span><span>AQUARIUM<span class="brand-small">GAME STORE</span></span></a>
+      <div class="nav-label">DISCOVER</div>
+      <nav class="main-nav">
+        <a class="nav-link active" href="#discover"><span class="nav-icon">⌂</span> Discover</a>
+        <a class="nav-link" href="#collection"><span class="nav-icon">▤</span> Game library</a>
+        <a class="nav-link" href="#genres"><span class="nav-icon">◈</span> Browse genres</a>
+        <a class="nav-link" href="about.html"><span class="nav-icon">◎</span> About us</a>
+      </nav>
+      <div class="sidebar-bottom"><div class="sidebar-wave">〰</div><p>Good games.<br><strong>Deeper waters.</strong></p><a href="about.html">Meet the crew <span>↗</span></a><div class="side-version">EST. 2024&nbsp; · &nbsp;INDIE SPIRIT</div></div>
+    </aside>
+
+    <main class="main-content" id="discover">
+      <header class="topbar"><div class="search-wrap"><label class="search-box"><span>⌕</span><input id="game-search" type="search" placeholder="Search games, genres, deep sea..." aria-label="Search games" aria-controls="search-suggestions" aria-expanded="false"><kbd>Ctrl K</kbd></label><div class="search-suggestions" id="search-suggestions" role="listbox" hidden></div></div><div class="top-actions"><span class="live-dot"></span><span class="open-label">OPEN FOR EXPLORATION</span><button class="avatar" aria-label="Aquarium Store">AS</button></div></header>
+      <section class="hero" aria-label="About Aquarium Store">
+        <a class="hero-link" href="about.html" aria-label="Discover the Aquarium Store story">
+          <div class="hero-copy"><span class="eyebrow"><span class="tiny-star">✳</span> YOUR NEXT DEEP DIVE STARTS HERE</span><h1>Find your<br><em>blue world.</em></h1><p>Explore hand-picked games inspired by the sea, the strange, and everything beneath the surface.</p><span class="hero-cta">MEET AQUARIUM STORE <span>↗</span></span></div>
+          <div class="hero-art" aria-hidden="true"><div class="sun-halo"></div><div class="bubble b1"></div><div class="bubble b2"></div><div class="bubble b3"></div><div class="bubble b4"></div><div class="coral coral-a"></div><div class="coral coral-b"></div><div class="hero-orbit">DIVE IN&nbsp; · &nbsp;STAY A WHILE&nbsp; · &nbsp;DIVE IN&nbsp; · &nbsp;</div><img class="hero-fish" src="assets/clownfish.svg" alt="Illustrated clownfish"><img class="hero-jelly" src="assets/jellyfish.svg" alt="Illustrated jellyfish"></div>
+          <span class="hero-index">01 <span>/</span> 04</span>
+        </a>
+      </section>
+
+      <section class="catalog" id="collection">
+        <div class="section-heading"><div><span class="eyebrow muted">CURRENTS & CURIOSITIES</span><h2>Game center<span class="heading-period">.</span></h2><p>A little something for every kind of diver.</p></div><a class="see-all" href="#games">VIEW ALL GAMES <span>↗</span></a></div>
+        <div class="filters" id="genres" role="group" aria-label="Filter games by genre"><button class="filter-chip active" data-filter="all">All games <span>22</span></button><button class="filter-chip" data-filter="adventure">Adventure</button><button class="filter-chip" data-filter="aaa">AAA adventures</button><button class="filter-chip" data-filter="survival">Survival</button><button class="filter-chip" data-filter="rpg">RPG</button><button class="filter-chip" data-filter="puzzle">Puzzle</button><button class="filter-chip" data-filter="cozy">Cozy & casual</button><button class="filter-chip" data-filter="mystery">Mystery</button></div>
+        <div class="game-grid" id="games" aria-live="polite"></div>
+        <div class="empty-state" hidden>No games found in this current. Try another search or filter.</div>
+      </section>
+      <footer class="main-footer"><span>© 2024 AQUARIUM STORE</span><span>CURATED FOR THE DEEP DIVERS <b>✳</b></span></footer>
+    </main>
+
+    <aside class="right-rail" aria-label="Recently viewed games">
+      <div class="recent-heading"><div><span class="small-label">YOUR RECENT DIVES</span><h2>Recently viewed</h2></div><button class="recent-clear" id="clear-recent" type="button">CLEAR</button></div>
+      <div class="recent-games" id="recent-games" aria-live="polite">
+        <div class="recent-empty"><span>〰</span><strong>No recent dives yet</strong><small>Choose a game card and it will show up here.</small></div>
+      </div>
+      <div class="recent-footer"><span class="recent-footer-icon">◉</span><p>Your latest game discoveries,<br>kept close at hand.</p></div>
+    </aside>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+</body>
+</html>

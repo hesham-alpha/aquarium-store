@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" fill="none">
+ <defs><linearGradient id="fish" x1="42" y1="51" x2="203" y2="128" gradientUnits="userSpaceOnUse"><stop stop-color="#FFBD70"/><stop offset="1" stop-color="#F66C58"/></linearGradient></defs>
+ <path d="M46 82c21-30 59-43 99-35 29 6 47 20 60 35-13 16-31 30-60 36-40 8-78-5-99-36Z" fill="url(#fish)" stroke="#BF4E54" stroke-width="4" stroke-linejoin="round"/>
+ <path d="m49 82-34-27 8 29-8 28 34-30Z" fill="#F78868" stroke="#BF4E54" stroke-width="4" stroke-linejoin="round"/>
+ <path d="M85 47c-9 20-9 49 0 69m45-70c-9 21-9 50 0 70" stroke="#FFF4DE" stroke-width="14"/><path d="M85 47c-9 20-9 49 0 69m45-70c-9 21-9 50 0 70" stroke="#CC5C5B" stroke-width="2"/>
+ <path d="M111 105c12-12 28-13 39-4-11 14-26 19-41 13" fill="#FF9B62" stroke="#BF4E54" stroke-width="3"/>
+ <circle cx="174" cy="75" r="5" fill="#233C56"/><circle cx="176" cy="73" r="1.5" fill="white"/>
+ <g fill="#F4FFEA"><circle cx="60" cy="27" r="4"/><circle cx="204" cy="36" r="3"/><circle cx="224" cy="66" r="2"/><circle cx="26" cy="42" r="2"/></g>
+</svg>

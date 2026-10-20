@@ -1,0 +1,6 @@
+.hero-fish,.hero-jelly{position:absolute;z-index:3;object-fit:contain;filter:drop-shadow(0 8px 12px #00182488);pointer-events:none}.hero-fish{width:94px;height:76px;left:18%;top:130px;animation:illustration-swim 7s ease-in-out infinite}.hero-jelly{width:86px;height:96px;right:11%;top:22px;animation:illustration-float 4.4s ease-in-out infinite reverse}
+.about-wildlife{position:absolute;z-index:2;right:12%;top:82px;width:135px;height:155px;object-fit:contain;filter:drop-shadow(0 15px 18px #00182488);animation:illustration-float 5s ease-in-out infinite reverse}.about-jelly,.about-fish,.about-coral{z-index:1}.about-bubble{z-index:3}
+@keyframes illustration-float{0%,100%{translate:0 0;rotate:-2deg}50%{translate:0 -7px;rotate:2deg}}@keyframes illustration-swim{0%,100%{translate:0 0;rotate:-2deg}50%{translate:10px -5px;rotate:3deg}}
+@media(max-width:900px){.hero-fish{left:24%;top:142px;width:82px;height:66px}}
+@media(max-width:650px){.hero-fish{left:51%;top:180px;width:72px;height:58px}.hero-jelly{right:9%;top:24px;width:70px;height:80px}.about-wildlife{right:4%;top:119px;width:155px;height:160px}}
+@media(prefers-reduced-motion:reduce){.hero-fish,.hero-jelly,.about-wildlife{animation:none}}
