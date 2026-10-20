@@ -1,4 +1,4 @@
-:root{--frame-top-gap:10vh;--frame-bottom-gap:7vh}
+:root{--frame-top-gap:12vh;--frame-bottom-gap:4vh}
 .frame-brand{position:fixed;z-index:10;top:max(0px,calc((var(--frame-top-gap) - 82px)/2));left:50%;display:grid;justify-items:center;gap:3px;padding:3px 14px;color:#e8fffb;transform:translateX(-50%)}
 .frame-brand-main{display:flex;align-items:center;gap:12px}
 .ray-logo{width:58px;height:46px;overflow:visible;filter:drop-shadow(0 0 8px #61e4d522);transform-origin:50% 55%;animation:ray-drift var(--ray-speed,5s) ease-in-out var(--ray-delay,0s) infinite}
